@@ -1,23 +1,4 @@
-# pyplot-themes
-Themes you can see that apply to matplotlib, seaborn, and pandas plots.
 
-## Installing
-
-Install from PyPI
-
-```
-pip install pyplot-themes
-```
-
-Or directly from GitHub
-
-```
-pip install git+https://github.com/raybuhr/pyplot-themes.git
-```
-
-## Usage
-
-### Environment 
 
 ```python
 import sys
@@ -31,9 +12,6 @@ sys.version
 
 
 
-### Setup
-
-Importing some libraries and setting up some functions to show off examples and usage.
 
 ```python
 import matplotlib.pyplot as plt
@@ -69,7 +47,7 @@ def example_plots(num_cats=6):
     plt.show()
 ```
 
-### Default Maplotlib Theme
+## Default Maplotlib Theme
 
 
 ```python
@@ -77,16 +55,16 @@ example_plots()
 ```
 
 
-![png](examples/examples_files/examples_3_0.png)
+![png](examples_files/examples_3_0.png)
 
 
 
-![png](examples/examples_files/examples_3_1.png)
+![png](examples_files/examples_3_1.png)
 
 
 As you can see, the default theme has good contrast in colors, but leaves a bit to be desired in the sige of the chart (i.e. figure size aka figsize) and font. 
 
-
+## Usage
 
 
 ```python
@@ -114,7 +92,7 @@ palplot(themes.palettes.Colorblind.colors)
 ```
 
 
-![png](examples/examples_files/examples_9_0.png)
+![png](examples_files/examples_9_0.png)
 
 
 
@@ -123,11 +101,11 @@ example_plots()
 ```
 
 
-![png](examples/examples_files/examples_10_0.png)
+![png](examples_files/examples_10_0.png)
 
 
 
-![png](examples/examples_files/examples_10_1.png)
+![png](examples_files/examples_10_1.png)
 
 
 As you can see, our plots are much larger now, have accessible colors, and have some light gridlines to make identifying values a bit easier.
@@ -155,7 +133,7 @@ plt.title("Look Mom, no lines!")
 
 
 
-![png](examples/examples_files/examples_13_1.png)
+![png](examples_files/examples_13_1.png)
 
 
 ### Themes
@@ -167,11 +145,11 @@ example_plots()
 ```
 
 
-![png](examples/examples_files/examples_15_0.png)
+![png](examples_files/examples_15_0.png)
 
 
 
-![png](examples/examples_files/examples_15_1.png)
+![png](examples_files/examples_15_1.png)
 
 
 
@@ -181,11 +159,11 @@ example_plots()
 ```
 
 
-![png](examples/examples_files/examples_16_0.png)
+![png](examples_files/examples_16_0.png)
 
 
 
-![png](examples/examples_files/examples_16_1.png)
+![png](examples_files/examples_16_1.png)
 
 
 
@@ -194,7 +172,7 @@ palplot(themes.palettes.Solarized.dark)
 ```
 
 
-![png](examples/examples_files/examples_17_0.png)
+![png](examples_files/examples_17_0.png)
 
 
 
@@ -204,11 +182,11 @@ example_plots()
 ```
 
 
-![png](examples/examples_files/examples_18_0.png)
+![png](examples_files/examples_18_0.png)
 
 
 
-![png](examples/examples_files/examples_18_1.png)
+![png](examples_files/examples_18_1.png)
 
 
 
@@ -217,7 +195,7 @@ palplot(themes.palettes.Solarized.light)
 ```
 
 
-![png](examples/examples_files/examples_19_0.png)
+![png](examples_files/examples_19_0.png)
 
 
 
@@ -227,11 +205,11 @@ example_plots()
 ```
 
 
-![png](examples/examples_files/examples_20_0.png)
+![png](examples_files/examples_20_0.png)
 
 
 
-![png](examples/examples_files/examples_20_1.png)
+![png](examples_files/examples_20_1.png)
 
 
 
@@ -240,7 +218,7 @@ palplot(themes.palettes.PaulTolColorSchemes.colors)
 ```
 
 
-![png](examples/examples_files/examples_21_0.png)
+![png](examples_files/examples_21_0.png)
 
 
 
@@ -250,11 +228,11 @@ example_plots(12)
 ```
 
 
-![png](examples/examples_files/examples_22_0.png)
+![png](examples_files/examples_22_0.png)
 
 
 
-![png](examples/examples_files/examples_22_1.png)
+![png](examples_files/examples_22_1.png)
 
 
 
@@ -264,11 +242,11 @@ example_plots(num_cats=12)
 ```
 
 
-![png](examples/examples_files/examples_23_0.png)
+![png](examples_files/examples_23_0.png)
 
 
 
-![png](examples/examples_files/examples_23_1.png)
+![png](examples_files/examples_23_1.png)
 
 
 
@@ -279,15 +257,15 @@ palplot(themes.palettes.Few.dark)
 ```
 
 
-![png](examples/examples_files/examples_24_0.png)
+![png](examples_files/examples_24_0.png)
 
 
 
-![png](examples/examples_files/examples_24_1.png)
+![png](examples_files/examples_24_1.png)
 
 
 
-![png](examples/examples_files/examples_24_2.png)
+![png](examples_files/examples_24_2.png)
 
 
 
@@ -297,11 +275,11 @@ example_plots()
 ```
 
 
-![png](examples/examples_files/examples_25_0.png)
+![png](examples_files/examples_25_0.png)
 
 
 
-![png](examples/examples_files/examples_25_1.png)
+![png](examples_files/examples_25_1.png)
 
 
 
@@ -311,7 +289,7 @@ example_scatter_plot()
 ```
 
 
-![png](examples/examples_files/examples_26_0.png)
+![png](examples_files/examples_26_0.png)
 
 
 
@@ -321,7 +299,7 @@ example_bar_plot()
 ```
 
 
-![png](examples/examples_files/examples_27_0.png)
+![png](examples_files/examples_27_0.png)
 
 
 
@@ -331,11 +309,11 @@ example_plots(num_cats=4)
 ```
 
 
-![png](examples/examples_files/examples_28_0.png)
+![png](examples_files/examples_28_0.png)
 
 
 
-![png](examples/examples_files/examples_28_1.png)
+![png](examples_files/examples_28_1.png)
 
 
 
@@ -345,11 +323,11 @@ example_plots(num_cats=16)
 ```
 
 
-![png](examples/examples_files/examples_29_0.png)
+![png](examples_files/examples_29_0.png)
 
 
 
-![png](examples/examples_files/examples_29_1.png)
+![png](examples_files/examples_29_1.png)
 
 
 ### Themes that come with matplotlib
@@ -364,11 +342,11 @@ example_plots()
 ```
 
 
-![png](examples/examples_files/examples_31_0.png)
+![png](examples_files/examples_31_0.png)
 
 
 
-![png](examples/examples_files/examples_31_1.png)
+![png](examples_files/examples_31_1.png)
 
 
 
@@ -378,11 +356,11 @@ example_plots()
 ```
 
 
-![png](examples/examples_files/examples_32_0.png)
+![png](examples_files/examples_32_0.png)
 
 
 
-![png](examples/examples_files/examples_32_1.png)
+![png](examples_files/examples_32_1.png)
 
 
 `bmh` stands for Bayesian Methods for Hackers
@@ -394,7 +372,7 @@ example_scatter_plot()
 ```
 
 
-![png](examples/examples_files/examples_34_0.png)
+![png](examples_files/examples_34_0.png)
 
 
 So we also have an alias for the spelled out version to make it easier to discover
@@ -406,7 +384,7 @@ example_bar_plot()
 ```
 
 
-![png](examples/examples_files/examples_36_0.png)
+![png](examples_files/examples_36_0.png)
 
 
 While this package provides light and dark solarized themes, `matplotlib` comes with a light version as well. This one is a good choice if you want to keep more contrast in the colors of your plots.
@@ -418,11 +396,11 @@ example_plots()
 ```
 
 
-![png](examples/examples_files/examples_38_0.png)
+![png](examples_files/examples_38_0.png)
 
 
 
-![png](examples/examples_files/examples_38_1.png)
+![png](examples_files/examples_38_1.png)
 
 
 In addition to making it easy to find and call the matplotlib themes, `pyplot-themes` also makes it easier to modify them slightly. For example say you want to use the `ggplot2` theme, but you want to use the Paul Tol Color Schemes palette with it.
@@ -434,7 +412,7 @@ example_bar_plot(num_cats=12)
 ```
 
 
-![png](examples/examples_files/examples_40_0.png)
+![png](examples_files/examples_40_0.png)
 
 
 Or maybe the `fivethirtyeight` colors
@@ -446,7 +424,7 @@ example_bar_plot()
 ```
 
 
-![png](examples/examples_files/examples_42_0.png)
+![png](examples_files/examples_42_0.png)
 
 
 ### Resetting to back to matplotlib defaults
@@ -466,7 +444,7 @@ example_bar_plot()
 ```
 
 
-![png](examples/examples_files/examples_44_0.png)
+![png](examples_files/examples_44_0.png)
 
 
 ### Palettes
@@ -479,7 +457,7 @@ palplot(themes.palettes.Autumn1.colors)
 ```
 
 
-![png](examples/examples_files/examples_46_0.png)
+![png](examples_files/examples_46_0.png)
 
 
 
@@ -488,7 +466,7 @@ palplot(themes.palettes.Autumn2.colors)
 ```
 
 
-![png](examples/examples_files/examples_47_0.png)
+![png](examples_files/examples_47_0.png)
 
 
 
@@ -497,7 +475,7 @@ palplot(themes.palettes.Canyon.colors)
 ```
 
 
-![png](examples/examples_files/examples_48_0.png)
+![png](examples_files/examples_48_0.png)
 
 
 
@@ -506,7 +484,7 @@ palplot(themes.palettes.Chili.colors)
 ```
 
 
-![png](examples/examples_files/examples_49_0.png)
+![png](examples_files/examples_49_0.png)
 
 
 
@@ -515,7 +493,7 @@ palplot(themes.palettes.Tomato.colors)
 ```
 
 
-![png](examples/examples_files/examples_50_0.png)
+![png](examples_files/examples_50_0.png)
 
 
 
@@ -524,7 +502,7 @@ palplot(themes.palettes.Few.medium)
 ```
 
 
-![png](examples/examples_files/examples_51_0.png)
+![png](examples_files/examples_51_0.png)
 
 
 
@@ -533,7 +511,7 @@ palplot(themes.palettes.FiveThirtyEight.colors)
 ```
 
 
-![png](examples/examples_files/examples_52_0.png)
+![png](examples_files/examples_52_0.png)
 
 
 
@@ -543,11 +521,11 @@ palplot(themes.palettes.Solarized.dark)
 ```
 
 
-![png](examples/examples_files/examples_53_0.png)
+![png](examples_files/examples_53_0.png)
 
 
 
-![png](examples/examples_files/examples_53_1.png)
+![png](examples_files/examples_53_1.png)
 
 
 
@@ -557,11 +535,11 @@ palplot(themes.palettes.UCBerkeley.secondary_colors)
 ```
 
 
-![png](examples/examples_files/examples_54_0.png)
+![png](examples_files/examples_54_0.png)
 
 
 
-![png](examples/examples_files/examples_54_1.png)
+![png](examples_files/examples_54_1.png)
 
 
 ### Using with Pandas
@@ -657,7 +635,7 @@ df.plot()
 
 
 
-![png](examples/examples_files/examples_59_1.png)
+![png](examples_files/examples_59_1.png)
 
 
 
@@ -674,14 +652,5 @@ df.plot()
 
 
 
-![png](examples/examples_files/examples_60_1.png)
-
-## Contributing
-
-There are multiple ways you can help out with this project:
-
-- [submit a bug report](https://github.com/raybuhr/pyplot-themes/issues/new)
-- [submit a feature request](https://github.com/raybuhr/pyplot-themes/issues/new)
-- Fork this git repo, change some code, and submit a Pull Request
-    - adding documentation or examples counts as changing code
+![png](examples_files/examples_60_1.png)
 

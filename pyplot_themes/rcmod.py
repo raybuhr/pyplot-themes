@@ -84,9 +84,9 @@ def set_style(style_params):
 def dark_settings():
     # Set the color of the background, spines, and grids
     return {
-        "axes.facecolor": "#EAEAF2",
-        "axes.edgecolor": "white",
-        "grid.color": "white",
+        "axes.facecolor": "#2E2E30",
+        "axes.edgecolor": "#EEEEEE",
+        "grid.color": "#EEEEEE",
         "axes.spines.left": True,
         "axes.spines.bottom": True,
         "axes.spines.right": True,
