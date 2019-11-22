@@ -71,7 +71,7 @@ def example_plots(num_cats=6):
     plt.show()
 ```
 
-## Default Maplotlib Theme
+## Default Matplotlib Theme
 
 
 ```python
@@ -99,7 +99,7 @@ themes.__version__
 
 
 
-    '0.2.0'
+    '0.2.2'
 
 
 
